@@ -1,0 +1,11 @@
+Video Player
+
+Package used:
+video_player : https://pub.dev/packages/video_player
+
+- The video player has the following features:
+i) plays local video using path,
+ii) plays network videos using url,
+iii) plays the video when detected on screen,
+iv) pauses the video when it's not detected on screen,
+[TODO: Complete Docs]

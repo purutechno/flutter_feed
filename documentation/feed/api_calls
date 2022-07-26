@@ -1,0 +1,22 @@
+Api Calls
+
+#Packages Used :
+dio : https://pub.dev/packages/dio,
+dio_smart_retry : https://pub.dev/packages/dio_smart_retry,
+dio_logger : https://pub.dev/packages/dio_logger,
+
+# Overview :
+The app uses dio library for network calls, dio_smart_retry library for interceptors and dio_logger to print the output in
+the console during the debug view.The app has the network services located at "lib/service/network" directory. This directory
+has two dart files, namely "api.dart" and "feed_api.dart" that are accessed using providers in "data_interactors.dart" file.
+
+i) api.dart
+This file contains the method signatures for the actual method. This is the interface for the class FeedApi.
+The actual methods used are hidden under abstraction layer which can be accessed via global varibles in
+"data_interactors.dart" file.
+
+ii) feed_api.dart
+This file contains the overrides of the method inside Api class. FeedApi inherits all the methods from Api class.
+
+iii) data_interactors.dart
+This file contains the providers that gives us access to Network request library and methods from Api class.

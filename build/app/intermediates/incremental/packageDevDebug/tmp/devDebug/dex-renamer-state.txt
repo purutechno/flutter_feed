@@ -1,0 +1,4 @@
+#Fri Jun 03 11:46:10 NPT 2022
+base.0=/Users/cool/Documents/GitHub/FlutterFeed-Purushottam/build/app/intermediates/dex/devDebug/mergeDexDevDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

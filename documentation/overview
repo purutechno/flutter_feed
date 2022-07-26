@@ -1,0 +1,39 @@
+Flutter Feed
+
+Aim :
+i) The application should deliver random videos to the end-user in its alpha version.
+ii) The feed should feel like Tik-Tok in terms of performance.
+iii) The code should be clean, stable, scalable and within the design principles such that new features can         be added at a fast pace.
+iv) The chosen architecture should also allow multiple developers to work on different features at the same time without having merge conflicts.
+
+
+Highlights :
+i) Strong State Management and Dependency Injection
+Riverpod is selected for this purpose as it’s an improved form of data provider and can act as dependency manager for
+the app. Riverpod allows listening to multiple data providers within it's controller, this feature allows the app to be
+much cleaner in terms of business logic as each class will be responsible for doing a particular action.
+Official Documentation : https://riverpod.dev/
+Dart Package : https://pub.dev/packages/riverpod
+
+ii) Design Principles
+The app is guided by SOLID design principles along with tight coupling of features. MVC will be used for the current
+scope with an idea for transition into MVVM whenever necessary.
+
+iii) Official Packages are preferred
+The official video player package will be used, this allows further customization of the player as required.
+Freezed and Freezed annotation will be used for code generation along with immutability.
+Dio library will be used for making network requests.
+
+iv) Scalability
+The major goal will be to use the current code without much modifications. So, legacy code will be avoided at all costs and
+well managed documentation will be available for each logical step used to preload the videos in a linear format.
+
+v) Localization
+The application supports multiple language support to enhance app experience across the countries.
+
+vi) Theming
+The application supports themes (dark and light) by default, We can customize the app using Figma design template later on.
+
+
+[TODO: Complete Docs]
+
